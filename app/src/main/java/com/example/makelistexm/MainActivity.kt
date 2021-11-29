@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val lyeRecyclerView = findViewById<RecyclerView>(R.id.lye_recycler_view)
-        val lyeAdapter = LyeAdapter
+        val lyeAdapter = LyeAdapter()
 
         lyeRecyclerView.layoutManager = LinearLayoutManager(this)
         lyeRecyclerView.adapter = lyeAdapter
