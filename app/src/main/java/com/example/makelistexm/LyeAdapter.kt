@@ -15,7 +15,7 @@ class LyeAdapter : RecyclerView.Adapter<LyeViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: LyeViewHolder, position: Int) {
-        holder.textView.text = list[position].toString()
+        holder. = list[position].toString()
     }
 
     override fun getItemCount(): Int {
