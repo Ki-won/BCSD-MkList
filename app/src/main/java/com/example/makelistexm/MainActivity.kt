@@ -16,6 +16,6 @@ class MainActivity : AppCompatActivity() {
 
         lyeRecyclerView.layoutManager = LinearLayoutManager(this)
         lyeRecyclerView.adapter = lyeAdapter
-
+            //git up?
     }
 }
